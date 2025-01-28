@@ -194,7 +194,7 @@ font-size: 3rem !important;
     
     .container{
      
-      width: 100vh;
+    
     }
     .plancontainer{
       margin-left: 50px;
@@ -202,13 +202,14 @@ font-size: 3rem !important;
     .plantxtxt{
       width: 80%;
       letter-spacing: 4px;
+      margin-left: 12px;
     }
     .text-container{
      display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: 1fr;
 grid-gap: 40px;
-margin: 50px;
+margin: 80px;
     }
     .container02{
      
@@ -233,4 +234,5 @@ margin: 50px;
    
    .t1 .t2 .t3 {
      width: 30%;
+     margin-left: 20px;
    }
