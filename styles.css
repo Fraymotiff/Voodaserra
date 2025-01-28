@@ -232,7 +232,8 @@ margin: 80px;
      margin: 10px 15px;
    }
    
-   .t1 .t2 .t3 {
-     width: 30%;
-     margin-left: 20px;
-   }
+  
+  .container-titles{
+    margin-left: 20px;
+    width: 30%;
+  }
