@@ -67,6 +67,7 @@ nav ul{
  display:flex;
  gap: 12px;
  float: left;
+ width: 50%;
 }
   a {
     
