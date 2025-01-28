@@ -230,3 +230,7 @@ margin: 50px;
    .container-titles{
      margin: 10px 15px;
    }
+   
+   .t1 .t2 .t3 {
+     width: 30%;
+   }
