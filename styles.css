@@ -18,6 +18,7 @@ body {
     margin:0;
 
   background-color: #F0F0F0E41;
+  line-height: 1.7;
 }
   
     
@@ -87,17 +88,10 @@ color:#3E84B5;
     font-size: 4rem !important;
     Line-height: 1.5;
     justify-content: center;
-    
-    
-  }
-  
-  h1 {
-    color:#3E84B5;
 text-align:center;
 font-weight:normal;
 
 letter-spacing: 2px;
-justify-content: center;
 
 font-family: "Playfair Display",
 serif;
@@ -153,7 +147,9 @@ font-size: 3rem !important;
 }
     
   
-  
+  .first{
+    place-items: center;
+  }
   
   .txt02 {
     
@@ -172,6 +168,7 @@ font-size: 3rem !important;
     width: 8rem;
     padding: 1rem;
    transition: .5s ease;
+  place-items: center;
     
   }
   
@@ -191,10 +188,7 @@ font-size: 3rem !important;
     
   
    
-    
-    .container{
-     
-    
+  
     }
     .plancontainer{
       margin-left: 50px;
