@@ -335,7 +335,7 @@ form .form-row .textarea{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right,, #9f01ea, #56d8e4, #9f01ea);
+  background: -webkit-linear-gradient(right,#3E84B5,  #05548B,#3E84B5, #05548B);
   transition: all 0.4s;
 }
 .submit-btn .input-data:hover .inner{
