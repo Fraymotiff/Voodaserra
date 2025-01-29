@@ -202,19 +202,27 @@ font-size: 3rem !important;
   
     }
     .plancontainer{
-      margin-left: 50px;
+    }
+    
+    .plantitle{
+      margin:4rem;
     }
     .plantxtxt{
-      width: 80%;
+      width: 50%;
       letter-spacing: 4px;
-      margin-left: 12px;
+      margin:4rem;
+      
+    }
+    .container02{
+      width: 80%;
+      max-width: 1100px;
+      margin: 0 autom;
     }
     .text-container{
-     display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-gap: 40px;
-margin: 80px;
+     display: flex;
+flex-direction: row;
+gap: 40px;
+*margin: 80px;
     }
     .container02{
      
@@ -231,17 +239,22 @@ margin: 80px;
   
     }
     
-   
+  
+   }
   
    .container-titles{
      margin: 10px 5px;
-   }
-   
-  
-  .container-titles{
     margin-left: 20px;
     width: 30%;
+    
   }
+  
+  .container-span{
+    padding: 10px;
+  }
+  
+  
+  /* form start */
   
   .form-container{
   max-width: 800px;
@@ -251,7 +264,7 @@ margin: 80px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
-/* form start */
+
 
 .form-container .form-text{
   width:60%;
