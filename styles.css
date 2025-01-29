@@ -1,6 +1,7 @@
 :root{
   --blue:#3E84B5;
   --navy:#05548B;
+  --black:#111221;
   
 }
 
@@ -148,7 +149,7 @@ font-size: 3rem !important;
     }
     
     p{
-      color:#111221;
+      color:var(--black);
       font-size:2rem;
  
   font-family: "Roboto", serif;
@@ -221,7 +222,7 @@ margin: 80px;
     
      span {
       
-     color:#111221;
+     color:var(--black);
       font-size:1.7rem;
 
   font-family: "Roboto", serif;
