@@ -1,3 +1,10 @@
+:root{
+  --blue:#3E84B5;
+  --navy:#05548B;
+  
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -27,7 +34,7 @@ body {
   font-size: 1rem !important;
   position: relative !important;
   margin-left:20px !important;
-  color:#3E84B5 !important;
+  color:var(--blue) !important;
 }
 
 
@@ -64,7 +71,7 @@ nav ul{
 }
 
 .nav-1{
-  color:#3E84B5;
+  color:var(--blue);
  display:flex;
  gap: 12px;
  float: left;
@@ -86,7 +93,7 @@ nav ul{
   
   h1{
     
-color:#3E84B5;
+color:var(--blue);
     font-size: 4rem !important;
     Line-height: 1.5;
     justify-content: center;
@@ -100,7 +107,7 @@ serif;
 }
     
   h2  {
-    color:#3E84B5;
+    color:var(--blue);
     text-align:center;
     font-weight:normal;
  
@@ -113,7 +120,7 @@ font-size: 3rem !important;
   }
   
     h3{
-      color:#3E84B5;
+      color:var(--blue);
     margin: auto;
     font-size: 2rem;
     
@@ -131,7 +138,7 @@ font-size: 3rem !important;
     
    .plantitle{
      font-family: "Playfair Display", serif;
-     color:#3E84B5;
+     color:var(--blue);
     margin: auto;
     padding: 10px;
  
@@ -163,7 +170,7 @@ font-size: 3rem !important;
   
   
   .btn01{
-    background-color: #05548B;
+    background-color: var(--navy);
     border-radius:5px;
     color:#FFFFFF;
     font-weight:bold;
@@ -177,7 +184,7 @@ font-size: 3rem !important;
   
     .btn-01:hover {
       
-  background-color:#3E84B5;
+  background-color:var(--blue);
   color:#FFFF;
   
     }
@@ -307,7 +314,6 @@ form .form-row .textarea{
   content: "";
   height: 2px;
   width: 100%;
-  background: #3498db;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -328,7 +334,7 @@ form .form-row .textarea{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+  background: -webkit-linear-gradient(right,, #9f01ea, #56d8e4, #9f01ea);
   transition: all 0.4s;
 }
 .submit-btn .input-data:hover .inner{
