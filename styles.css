@@ -251,10 +251,10 @@ margin: 80px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.container form{
+.form-container form{
   padding: 30px 0 0 0;
 }
-.container form .form-row{
+.form-container form .form-row{
   display: flex;
   margin: 32px 0;
 }
