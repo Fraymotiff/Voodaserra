@@ -40,14 +40,15 @@ body {
 
 
  .logotype{
-   width: 80px;
-   margin-top: -20px;
+   width: 130px;
+   margin-top: -40px;
  }
  
 
 .navbar{
   display:flex;
   font-weight: bold;
+  margin-top:30px;
 
 
 }
