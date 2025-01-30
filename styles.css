@@ -307,7 +307,7 @@ form .form-row .textarea{
 }
 .input-data input:focus ~ label, .textarea textarea:focus ~ label,
 .input-data input:valid ~ label, .textarea textarea:valid ~ label{
-  transform: translateY(-20px);
+ transform: translateX(10px);
   font-size: 14px;
   color: #3498db;
 }
@@ -333,12 +333,13 @@ form .form-row .textarea{
   height: 2px;
   width: 100%;
 }
+/* check and edit here */
 .input-data .underline:before{
   position: absolute;
   content: "";
   height: 2px;
   width: 100%;
-  transform: scaleX(0);
+ transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
 }
@@ -346,7 +347,7 @@ form .form-row .textarea{
 .input-data input:valid ~ .underline:before,
 .textarea textarea:focus ~ .underline:before,
 .textarea textarea:valid ~ .underline:before{
-  transform: scale(1);
+ transform: scale(1);
 }
 .submit-btn .input-data{
   overflow: hidden;
