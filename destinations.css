@@ -136,11 +136,27 @@
       
       
       
-      .destinations{
+      .destination__trips{
 
+        display: flex;
+    
+        justify-items: center;
+      
+                gap: 10px;
         
       }
-    
+
+
+      
+      .thumb{ box-shadow: 0 0 5px #7194de, 0 0 5px #0000FF;
+    width: 25em;
+     transition: .5s;
+     margin: 40px; 
+
+  }
+  .thumb:hover{
+    transform: scale(1.1);
+}
       
        span {
         
