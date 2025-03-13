@@ -135,12 +135,10 @@
       
       
       
-      
-      .destination__trips{
-        display: flex;
-      
+      .destinations{
+        display:flex;
       }
-
+      
 
       
       .thumb{ 
@@ -162,24 +160,8 @@
 
 
 
-.destination__trips__text {
-
-display: flex;
-justify-items: center;
-gap:12em;
-margin-left:1em;
 
 
-}
-
-.destination__text__blurb{
-  margin-top:25px;
-  display: flex;
-justify-content: center;
-gap:90px;
-
-
-}
 
 
 
