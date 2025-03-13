@@ -122,9 +122,39 @@ font-size: 3rem !important;
   font-family: "Playfair Display", serif;
   
   }
+
+
+  h3  {
+    color:var(--blue);
+      font-weight:bold;
+
+
+
+  font-family: "Playfair Display", serif;
   
+  }
+  .voodaserra{
+width: 15em;
+display: flex;
+ justify-items: center;
+
+  }
+  
+
+  .trips__text{
+    width: 80%;
+  }
+
+
+.about__info{
+
+margin:1em;
+
+}
+
    .about{
     display: flex;
+    width: 80%;
    }
     
     
@@ -135,11 +165,27 @@ font-size: 3rem !important;
 
 
 
+   .divider {
+    width: 100%;
+    border-top: .5px solid #bfbfbf;
+    margin: 20px 0;
+}
 
+.trips__text{
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
 
-
-
-
+.values__text{
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  
+  text-align: center;
+}
+.ourvalues{
+  width: 50%;
+  margin-left: 20em;
+}
 
 
      span {
