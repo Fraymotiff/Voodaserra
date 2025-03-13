@@ -161,10 +161,15 @@
 
 
 
-.destination__trips__text{letter-spacing: 4px;}
+.destination__trips__text{
+  
+  letter-spacing: 4px;
+margin-left: 35px;}
 
 
-
+.prices{
+  margin-left: 35px;
+}
        span {
         
        color:var(--black);
