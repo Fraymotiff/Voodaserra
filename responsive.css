@@ -15,4 +15,92 @@
   .submit-btn .input-data{
     width: 40%!important;
   }
+  .form-container{
+    max-width: 500px;
+    background: #fff;
+    width: 800px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin: 0 auto;
+  }
+
+  .img01{
+    width: 30rem;
+
+  }
+  .trips__text{
+    width: 50%;
+  }
+  .ourvalues{
+    width: 100%;
+    margin-left: 0em;
+  }
+
+
+    
+  .destinations{
+    display:flex;
+    justify-items: center;
+    flex-direction: column;  }
+  .destinations > * {
+ flex-shrink: 1;
+ flex-grow: 1;
+ flex-basis: 300px;
+  }
+  
+
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .container .text{
+    font-size: 30px;
+  }
+  .container form{
+    padding: 10px 0 0 0;
+  }
+  .container form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .submit-btn .input-data{
+    width: 40%!important;
+  }
+  .form-container{
+    max-width: 300px;
+    background: #fff;
+    width: 600px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin: 0 auto;
+  }
+
+  .img01{
+    width: 20rem;
+
+}
+.thumb{ 
+  width: 19em;
+   transition: .5s;
+   margin: 40px; ,
+   
+  
+  }
 }

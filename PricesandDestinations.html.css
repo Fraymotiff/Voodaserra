@@ -137,6 +137,12 @@
       
       .destinations{
         display:flex;
+        justify-items: center;
+      }
+      .destinations > * {
+     flex-shrink: 1;
+     flex-grow: 1;
+     flex-basis: 300px;
       }
       
 
