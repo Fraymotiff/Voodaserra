@@ -105,7 +105,9 @@
   }
   .about{
     display: flex;
-    width: 50%;
+    flex-direction: column;
+    width: 80%;
+    margin: 0  10rem; 
    }
     
 }
