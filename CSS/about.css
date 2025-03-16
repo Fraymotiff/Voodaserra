@@ -18,24 +18,23 @@
 
 
 
-
 * { margin :0;
-box-sizing:border-box;
-list-style: none ;
-text-decoration: none;
+  box-sizing:border-box;
+  list-style: none ;
+  text-decoration: none;
+  
+  
+  }
 
-
-}
-body { 
+  body { 
     margin:0;
 
   background-color: #F0F0F0E41;
   line-height: 1.7;
 }
+
   
-    
-  
- .voodaserra{
+.voodaserra{
   font-size: 1rem !important;
   position: relative !important;
   margin-left:20px !important;
@@ -64,11 +63,10 @@ body {
 
 
 }
-  
-  .navbar a {
-    font-size: 1rem;
-    color: var(--blue);
-  }
+.navbar a {
+  font-size: 1rem;
+  color: var(--blue);
+}
 
 nav ul{
 
@@ -76,33 +74,33 @@ nav ul{
 }
 
 .nav-1{
-  color:var(--blue);
- display:flex;
- gap: 12px;
- float: left;
- width: 70%;
-}
-  a {
-    
-    text-decoration: none;
-  list-style: none;
-    cursor:pointer;
-    transition: .5s;
-    font-family: "Prompt", sans-serif;
-   
-    
-  }
-  
-  a:hover{
-    
-  }
-  
-  h1{
-    
 color:var(--blue);
-    font-size: 4rem !important;
-    Line-height: 1.5;
-    justify-content: center;
+display:flex;
+gap: 12px;
+float: left;
+width: 70%;
+}
+a {
+  
+  text-decoration: none;
+list-style: none;
+  cursor:pointer;
+  transition: .5s;
+  font-family: "Prompt", sans-serif;
+ 
+  
+}
+
+a:hover{
+  
+}
+
+h1{
+  
+color:var(--blue);
+  font-size: 4rem !important;
+  Line-height: 1.5;
+  justify-content: center;
 text-align:center;
 font-weight:normal;
 
@@ -111,36 +109,18 @@ letter-spacing: 2px;
 font-family: "Playfair Display",
 serif;
 }
-    
-  h2  {
-    color:var(--blue);
-      font-weight:normal;
-     letter-spacing: 2px;
-    justify-content: center;
+h2  {
+  color:var(--blue);
+  text-align:center;
+  font-weight:normal;
+
+  letter-spacing: 2px;
+  justify-content: center;
 font-size: 3rem !important;
 
-  font-family: "Playfair Display", serif;
-  
-  }
+font-family: "Playfair Display", serif;
 
-
-  h3  {
-    color:var(--blue);
-      font-weight:bold;
-
-
-
-  font-family: "Playfair Display", serif;
-  
-  }
-  .voodaserra{
-width: 15em;
-display: flex;
- justify-items: center;
-
-  }
-  
-
+}
   .trips__text{
     width: 80%;
   }
