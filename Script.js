@@ -1,5 +1,6 @@
-const hidePlaceholder= document.querySelectorAll(".hide");
+var label = document.querySelectorAll("label")
 
-function showHidePlaceholder(){
-    hidePlaceholder.style.display = "none";
-} 
+
+textbox.addEventListener("keydown", function() {
+    label.style.display = "none"
+    }, false);
