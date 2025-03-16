@@ -165,7 +165,9 @@
 
 
 
-
+.destination__trips{
+  margin: 10px;
+}
 
 .destination__trips__text{
   
@@ -189,7 +191,13 @@ margin-left: 35px;}
       
     
 
+p{
 
+  letter-spacing: 2px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+ 
+}
   
   footer {
     height: 1em;

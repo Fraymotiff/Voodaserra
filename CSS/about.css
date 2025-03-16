@@ -121,9 +121,12 @@ font-size: 3rem !important;
 font-family: "Playfair Display", serif;
 
 }
-  .trips__text{
-    width: 80%;
-  }
+  p {
+    width: 90%;
+    letter-spacing: 2px;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-size:10px;  }
 
 
 .about__info{
@@ -151,22 +154,20 @@ margin:1em;
     margin: 20px 0;
 }
 
-.trips__text{
-  font-size: 18px;
-  font-family: "Playfair Display", serif;
-  letter-spacing: 4px;
-}
+
 
 .values__text{
   font-size: 20px;
   font-family: "Playfair Display", serif;
   letter-spacing: 4px;
-  
-  text-align: center;
 }
 .ourvalues{
   width: 50%;
-  margin-left: 20em;
+  margin-left: 25em;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  letter-spacing: 2px;
 }
 
 
@@ -182,20 +183,25 @@ margin:1em;
     }
     
   
+.logo_bottom{
+  width: 15em;
+  margin: 0 auto;
+  display: block;
+}
 
 
-
-footer {
-  height: 1em;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  text-align: center;
-  justify-content: space-around;
-  background-color:var(--navy);
-  color: #fff;}
-
-
-  footer span {
-    color: #fff;
-  }
+    footer {
+      height: 1em;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align: center;
+      justify-content: space-around;
+      background-color:var(--navy);
+      color: #fff;}
+    
+    
+      footer span {
+        color: #fff;
+      }
+    
