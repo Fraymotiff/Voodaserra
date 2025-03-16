@@ -129,7 +129,9 @@ font-family: "Playfair Display", serif;
     font-size:10px;  }
 
 
-.about__info{
+h3{
+  color: var(--navy);
+
 
 margin:1em;
 
@@ -184,7 +186,7 @@ margin:1em;
     
   
 .logo_bottom{
-  width: 15em;
+  width: 20em;
   margin: 0 auto;
   display: block;
 }
