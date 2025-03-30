@@ -312,7 +312,7 @@ form .form-row .textarea{
 }
 .input-data input:focus ~ label, .textarea textarea:focus ~ label,
 .input-data input:valid ~ label, .textarea textarea:valid ~ label{
- transform: translateX(0px);
+  transform: translateY(-25px);
   font-size: 14px;
   color: var(--blue);
 }
@@ -357,7 +357,7 @@ textarea{     outline: none; }
 .textarea textarea:focus ~ .underline:before,
 .textarea textarea:valid ~ .underline:before{
   border-bottom: 2px solid rgba(0,0,0, 0.12);
- transform: scale(1);
+ transform: scale(0.89);
 }
 .submit-btn .input-data{
   overflow: hidden;
