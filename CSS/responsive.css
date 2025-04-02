@@ -27,6 +27,14 @@
     width: 30rem;
 
   }
+
+  .container-span{
+    width: 50%;
+
+  }
+
+  /* prices page */
+
   .trips__text{
     width: 50%;
   }

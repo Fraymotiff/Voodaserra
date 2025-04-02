@@ -166,15 +166,21 @@ p {
 }
 
 .plancontainer {
+ 
 }
 
 .plantitle {
-  margin: 4rem;
+  display: flex;
+  justify-content: center;
 }
 .plantxtxt {
+  
   width: 50%;
   letter-spacing: 4px;
-  margin: 4rem;
+  margin:2rem;
+margin-left : 25rem;
+  display: flex;
+  justify-content: center;
 }
 .container02 {
 }
