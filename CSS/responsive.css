@@ -1,4 +1,22 @@
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 720px) {
+
+  .image_one {
+    width: 25rem;
+  }
+
+  
+  .text_container {
+    width: 50%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
   .container .text {
     font-size: 30px;
   }
@@ -22,29 +40,28 @@
     margin: 0 auto;
   }
 
-  .image_one {
-    width: 30rem;
-  }
 
-  .text_container {
-    width: 50%;
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+/*about page*/
+
+.about{
+  display: flex;
+  flex-direction: column;
+
+  justify-items: center;
+
+
+  width: 80%;
+
+margin:0 auto;
+
 }
+
+
+
 /* prices page */
 
 .trips__text {
   width: 50%;
-}
-.ourvalues {
-  width: 100%;
-  margin-left: 0em;
 }
 
 .destinations {
@@ -57,9 +74,24 @@
   flex-grow: 1;
   flex-basis: 300px;
 }
+}
+
+
+
+
+
+
+
+
+
+/* 480 */
+
 
 @media screen and (max-width: 480px) {
-  .image_one {
+  
+
+
+.image_one {
     width: 80rem;
   }
   .container .text {
@@ -95,23 +127,27 @@
     align-items: center;
     flex-wrap: wrap;
   }
-}
 
 /* about */
 
-.image_one {
-  width: 25rem;
-}
 .thumb {
   width: 19em;
   transition: 0.5s;
   margin: 40px;
 }
-.about {
+.about{
   display: flex;
   flex-direction: column;
+
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+
+
   width: 80%;
-  margin: 0 10rem;
+
+margin:0 auto;
+
 }
 footer {
   height: 3em;
@@ -126,10 +162,5 @@ footer {
 
 .about__info {
   margin-left: 0%;
-}
 
-.values__text {
-  width: 70%;
-  display: flex;
-  justify-items: center;
-}
+}}
