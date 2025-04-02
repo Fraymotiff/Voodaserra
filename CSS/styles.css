@@ -159,10 +159,11 @@ p {
   color: #ffff;
 }
 
-.img01 {
-  width: 50rem;
-  border-radius: 10px;
-  display: block;
+.image_one{
+width: 45rem;
+display: flex;
+justify-content: center;
+border-radius: 10px;
 }
 
 .plancontainer {
@@ -178,9 +179,8 @@ p {
   width: 50%;
   letter-spacing: 4px;
   margin:2rem;
-margin-left : 25rem;
   display: flex;
-  justify-content: center;
+justify-self: center;
 }
 .container02 {
 }
