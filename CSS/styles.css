@@ -122,6 +122,8 @@ h3 {
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 2rem !important;
+  display: flex;
+  justify-items: center;
 }
 
 p {
@@ -184,7 +186,7 @@ justify-self: center;
 }
 .container02 {
 }
-.text-container {
+.text_container {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
