@@ -2,7 +2,8 @@
     --blue:#3E84B5;
     --navy:#05548B;
     --black:#111221;
-    
+    --bg: #f0f0f0; 
+  
   }
   
   
@@ -28,8 +29,7 @@
   }
   body { 
       margin:0;
-  
-    background-color: #F0F0F0E41;
+
     line-height: 1.7;
   }
     
@@ -204,12 +204,10 @@ p{
 
 /*footer*/
 
-
 .footer_nav {
   background-color: var(--navy);
   color:#fff;
-
-}
+  padding: 0 1rem;}
 
 .footer_nav__address{
   font-size: 18px;

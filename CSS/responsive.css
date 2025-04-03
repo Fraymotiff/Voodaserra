@@ -208,6 +208,137 @@ margin:0 auto;
 
 
 @media screen and (max-width: 580px) {
+
+
+  .nav-1{
+    color:var(--blue);
+   display:flex;
+   gap: 12px;
+   float: left;
+   width: 90%;
+  }
+  
+.footer_nav__address{
+float: none;
+display: flex;
+flex-direction: column;
+margin: 0 5em;
+text-align: center;
+}
+
+.image_one {
+    width: 80rem;
+  }
+  .container .text {
+    font-size: 30px;
+  }
+  .container form {
+    padding: 10px 0 0 0;
+  }
+  .container form .form-row {
+    display: block;
+  }
+  form .form-row .input-data {
+    margin: 35px 0 !important;
+  }
+  .submit-btn .input-data {
+    width: 40% !important;
+  }
+  .form-container {
+    max-width: 300px;
+    background: #fff;
+    width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+
+  .text_container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+/* about */
+
+
+/* prices */
+
+.thumb {
+  width: 22em;
+  margin: 0px; 
+
+}
+.trips__text{
+ 
+  width: 90%;
+  padding: 5px;
+}
+
+.destinations .destination__trips{
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  height: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  background-color: var(--navy);
+  color: #fff;
+}
+
+.about__info {
+  margin-left: 0%;
+
+}}
+
+@media screen and (max-width: 350px) {
+
+  /* Responsive navbar */
+
+
+
+  .voodaserra {
+    display: none;
+  }
+
+
+  
+  .logotype {
+    display: none;
+  }
+  
+  nav{
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 100vh;
+    background-color: #ffff ;
+    width: min( 20em, 100%);
+  }
+
+   .nav-1 {
+    width: 100%;
+    flex-direction: column;
+    float: none;
+    
+  }
+  .nav-1 a{
+    width: 100%;
+    padding-right: 1.5em;
+    font-size: 35px;
+  }
+
   
 .footer_nav__address{
 float: none;

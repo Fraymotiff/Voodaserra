@@ -2,6 +2,10 @@
   --blue: #3e84b5;
   --navy: #05548b;
   --black: #111221;
+  --bg: #f0f0f0; 
+  
+  
+ 
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
@@ -19,7 +23,7 @@
 body {
   margin: 0;
 
-  background-color: #F0F0F0E41;
+
   line-height: 1.7;
 }
 
@@ -368,6 +372,7 @@ textarea {
 .footer_nav {
   background-color: var(--navy);
   color:#fff;
+  padding: 0 1rem;
 
 }
 
