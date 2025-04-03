@@ -115,10 +115,9 @@ h3 {
   margin: 1em;
 }
 
-.about {
-  display: flex;
-  align-items: center;
-  width: 100%;
+.trips__text{
+ 
+  width: 50%;
   padding: 5px;
 }
 
@@ -164,6 +163,9 @@ span {
 /*footer*/
 
 
+
+
+
 .footer_nav {
   background-color: var(--navy);
   color:#fff;
@@ -200,7 +202,7 @@ gap: 5px;
 }
 
 footer {
-  height: 1em;
+  height: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
