@@ -1,4 +1,36 @@
+:root{
+  --blue:#3E84B5;
+  --navy:#05548B;
+  --black:#111221;
+  --bg: #f0f0f0; 
 
+}
+
+.logo_mobile_nav{
+  display: none;
+}
+#open-sidebar-button{
+  display: none;
+  background: none;
+  border: none;
+  padding: 1em;
+  margin-left: auto;
+  cursor: pointer;
+}
+#close-sidebar-button{
+  display: none;
+  background: none;
+  border: none;
+  padding: 1em;
+  cursor: pointer;
+}
+#overlay{
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  display: none;
+}
 
 @media screen and (max-width: 1280px) {
   .image_one {
@@ -209,6 +241,71 @@ margin:0 auto;
 
 @media screen and (max-width: 580px) {
 
+  
+  /* Responsive navbar */
+
+
+
+  .voodaserra {
+    display: none;
+  }
+
+
+  
+  .logotype {
+    display: none;
+  }
+
+  .logo_mobile_nav{
+    width: 7rem;
+    display: block;
+  }
+
+  #open-sidebar-button{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+border-color: white  white var(--navy)  white ;
+border-style: solid;
+
+  }
+  #close-sidebar-button{
+    display: block;
+
+    }
+  
+  nav{
+    position: fixed;
+    top:0;
+    right: -1000;
+    z-index: 10;
+    height: 100vh;
+    background-color: #ffff ;
+    width: min( 20em, 100%);
+    transition: right 300ms ease-in-out;
+  }
+  nav .show {
+    right: 0;
+  }
+   .nav-1 {
+    width: 100%;
+    flex-direction: column;
+    float: none;
+    
+  }
+  .nav-1 a{
+    width: 100%;
+    padding-right: 1.5em;
+    font-size: 35px;
+  }
+
+  nav.show ~ #overlay{
+    display: block;}
+
+
+  /*Responsive navbar */
+  
 
   .nav-1{
     color:var(--blue);
@@ -317,16 +414,39 @@ footer {
   .logotype {
     display: none;
   }
+
+  .logo_mobile_nav{
+    width: 5rem;
+    display: block;
+  }
+
+  #open-sidebar-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-color: white  white var(--navy)  white ;
+    border-style: solid;
+    
+      }
+  #close-sidebar-button{
+    display: block;
+
+    }
   
   nav{
     position: fixed;
     top:0;
-    right: 0;
+    right: -1000;
+    z-index: 10;
     height: 100vh;
     background-color: #ffff ;
     width: min( 20em, 100%);
+    transition: right 300ms ease-in-out;
   }
-
+  nav .show {
+    right: 0;
+  }
    .nav-1 {
     width: 100%;
     flex-direction: column;
@@ -339,6 +459,11 @@ footer {
     font-size: 35px;
   }
 
+  nav.show ~ #overlay{
+    display: block;}
+
+
+  /*Responsive navbar */
   
 .footer_nav__address{
 float: none;

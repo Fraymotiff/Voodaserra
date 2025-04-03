@@ -1,6 +1,9 @@
-var label = document.querySelectorAll("label")
+const navbar = document.getElementById('navbar')
 
+function openSidebar(){
+  navbar.classList.add('show')
+}
 
-textbox.addEventListener("keydown", function() {
-    label.style.display = "none"
-    }, false);
+function closeSidebar(){
+  navbar.classList.remove('show')
+}
