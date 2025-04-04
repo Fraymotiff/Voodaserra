@@ -1,30 +1,42 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <head>
-        <meta charset="autf-8">
-        <meta http-equiv="X-UACompatible" content="IE=edge">
-        <meta name="Viewport" content=" width-device-width, inicial scale 1.0"> 
+    <link rel="stylesheet" href="./CSS/styles.css".css"><link>
+    <link rel="stylesheet" href="./CSS/reset.css".css"><link>
+    <link rel="stylesheet" href="./CSS/responsive.css".css"><link>
 
-    <link rel="stylesheet" href="./CSS/styles.css">
-    <link rel="stylesheet" href="./CSS/responsive.css".css">
-      <link rel="stylesheet" href="./CSS/reset.css">
-
-            
-            
-        <link rel="stylesheet"
+      <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         
         <link>
-    
-        
-  <title>Voo da Serra</title>
-  
- 
+
+
+    <title>Voo da Serra</title>
 </head>
 <header>
- <div>
-<nav class="show" id="navbar">
+
+
+     <!-- RESPONSIVE-->
+
+  <div class="off-screen-menu">
+   <ul>
+     <li><a href="index.html">Home</li></a>
+     <li> <a href="about.html">About</li></a>
+     <li><a href="PricesandDestinations.html">Prices</li></a>
+   </ul>
+ </div>
+
+
+   <div class="ham-menu">
+    <button id="open-sidebar-button" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+       <img src="./imgs/logo.png" class="logo_mobile_nav"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+     </button></div>
+     
+
+
+ <!-- RESPONSIVE-->
   
 <ul class="navbar">
        
@@ -69,7 +81,7 @@
   <br>
   
   
-       <img src="./imgs/img01.jpeg" alt="3 cable cars on a wire,one yellow, one red in the middle and another yellow one behind the other two. behind them as a lot of greenery, a mountain and a waterfall." class="image_one"></a>
+  <img src="./imgs/img01.jpeg" alt="3 cable cars on a wire,one yellow, one red in the middle and another yellow one behind the other two. behind them as a lot of greenery, a mountain and a waterfall." class="image_one"></a>
      
 </div>
 <br><br> 
@@ -213,6 +225,7 @@
 </div>
 <footer>    
    <span>Site developed by  Lua Morel | All rights reserved ©  2025 </span><br></footer>
+   <script src="Script.js" defer></script>
 
 </body>
 </html>
