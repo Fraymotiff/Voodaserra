@@ -1,0 +1,48 @@
+
+
+
+import 'wicg-inert/dist/inert.min.js';
+
+const openButton = document.getElementById('open-sidebar-button');
+const navbar = document.getElementById('navbar');
+
+
+
+
+
+function closeSidebar(){
+  navbar.classList.remove('show')
+  openButton.setAttribute('aria-expanded', 'false')
+  navbar.setAttribute('inert', '')
+}
+
+
+
+
+
+
+function updateNavbar(e){
+  const isMobile = e.matches
+  if (process.env.NODE_ENV === 'development') {
+    console.log(isMobile);
+    navbar.inert = true;
+  if(isMobile){
+    navbar.setAttribute('inert', '');
+  }
+    navbar.inert = false;
+    navbar.removeAttribute('inert')
+  }
+  navbar.classList.add('show')
+  openButton.setAttribute('aria-expanded', 'true')
+  if (!media.matches) {
+    navbar.removeAttribute('inert')
+  }
+  navbar.classList.add('show')
+  openButton.setAttribute('aria-expanded', 'true')
+  navbar.removeAttribute('inert')
+}
+
+
+
+
+
