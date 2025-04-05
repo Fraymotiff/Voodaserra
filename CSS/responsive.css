@@ -11,7 +11,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 
-.navbar{ display: none;}
 .off-screen-menu{
   display: none;
 }
@@ -19,6 +18,8 @@
 .ham-menu{ display: none;}
 
 @media screen and (max-width: 1280px) {
+
+   
   .image_one {
     width: 25rem;
   }
@@ -121,11 +122,142 @@ margin:0 auto;
 
 
 @media screen and (max-width: 830px) {
+  
+
+.navbar{ display: none;}
+
+   /* Responsive navbar */
+
+   .off-screen-menu{
+    display: block;
+  }
+  
+  .ham-menu{ display: block;}
+  .voodaserra {
+    display: none;
+  }
+
+
+  
+  .logotype {
+    display: none;
+  }
+
+  .logo_mobile_nav{
+    width: 5rem;
+    display: block;
+  }
+
+
+
+
+
+.open-sidebar-button{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+border-color: white  white var(--navy)  ;
+border-style: solid;
+    }
+
+
+    
+.off-screen-menu {
+  background-color:  #FFFF;
+border-l-color: var(--navy) white  white   ;
+  font-weight: bold;
+margin-top: 5rem;
+  height: 100vh;
+  width: 100%;
+  max-width: 250px;
+  position: fixed;
+  top: 0;
+  font-family: "Prompt", sans-serif;
+  right: -450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+  font-size: 2rem;
+  transition: .3s ease;
+}
+
+.off-screen-menu ul li {
+  margin-bottom: 5rem;
+
+}
+.off-screen-menu.active {
+  right: 0;
+}
+
+
+.off-screen-menu a{
+  color: var(--navy);
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 5rem;
+
+  
+
+}
+
+
+
+  #open-sidebar-button{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+
+  }
+ 
+  
+ 
+
+
+  /*Responsive navbar */
+  
 
   .image_one {
     width: 25rem;
   }
 
+  .plantitle{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+    .plantxtxt{
+      width: 80%;
+      letter-spacing: 4px;
+      margin:2rem;
+      display: flex;
+    justify-self: center;
+    
+    }
+    
+    .container-titles {
+      margin: 0;
+      margin-left: 0px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .txt04{
+    display: flex;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    
   
   .text_container {
     width: 50%;
@@ -228,10 +360,16 @@ margin:0 auto;
 @media screen and (max-width: 580px) {
 
   
-  /* Responsive navbar */
 
+.navbar{ display: none;}
+  
+   /* Responsive navbar */
 
-
+   .off-screen-menu{
+    display: block;
+  }
+  
+  .ham-menu{ display: block;}
   .voodaserra {
     display: none;
   }
@@ -248,15 +386,77 @@ margin:0 auto;
   }
 
 
+
+
+
+.open-sidebar-button{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+border-color: white  white var(--navy)  ;
+border-style: solid;
+    }
+
+
+    
+.off-screen-menu {
+  background-color:  #FFFF;
+border-l-color: var(--navy) white  white   ;
+  font-weight: bold;
+margin-top: 5rem;
+  height: 100vh;
+  width: 100%;
+  max-width: 250px;
+  position: fixed;
+  top: 0;
+  font-family: "Prompt", sans-serif;
+  right: -450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+  font-size: 2rem;
+  transition: .3s ease;
+}
+
+.off-screen-menu ul li {
+  margin-bottom: 5rem;
+
+}
+.off-screen-menu.active {
+  right: 0;
+}
+
+
+.off-screen-menu a{
+  color: var(--navy);
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 5rem;
+
   
+
+}
+
+
+
+  #open-sidebar-button{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+
+  }
+ 
   
  
 
-  nav.show ~ #overlay{
-    display: block;}
-
 
   /*Responsive navbar */
+  
   
 
   .nav-1{
@@ -276,8 +476,42 @@ text-align: center;
 }
 
 .image_one {
-    width: 80rem;
+    width: 20rem;
   }
+
+  .plantitle{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+    .plantxtxt{
+      width: 80%;
+      letter-spacing: 4px;
+      margin:2rem;
+      display: flex;
+    justify-self: center;
+    
+    }
+    
+    .container-titles {
+      margin: 0;
+      margin-left: 0px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .txt04{
+    display: flex;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    
   .container .text {
     font-size: 30px;
   }
@@ -352,6 +586,9 @@ footer {
 }
 }
 @media screen and (max-width: 380px) {
+  
+
+.navbar{ display: none;}
 
 
   /* Responsive navbar */
@@ -476,6 +713,15 @@ justify-self: center;
   justify-content: center;
   text-align: center;
 }
+
+.txt04{
+display: flex;
+width: 60%;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
 
   .footer_nav__address{
 float: none;
