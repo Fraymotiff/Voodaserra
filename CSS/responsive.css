@@ -16,7 +16,14 @@
 }
 
 .ham-menu{ display: none;}
+.overlay{
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  display:none;
 
+}
 
 
 
@@ -131,7 +138,11 @@ margin:0 auto;
 .navbar{ display: none;}
 
    /* Responsive navbar */
-   
+   .overlay{
+
+    display: block;
+  
+  }
 
    .off-screen-menu{
     display: block;
@@ -210,7 +221,7 @@ margin-top: 5rem;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  border-color: white white  var(--navy)  ;
+  border-color: 0 0 var(--navy)  ;
       border-style: solid;
           }
   
@@ -360,15 +371,29 @@ margin:0 auto;
 
 
 @media screen and (max-width: 580px) {
+  .navbar{ display: none;}
 
+
+  .overlay{
+
+    display: block;
+    z-index: 0;
   
   }
-.navbar{ display: none;}
+  .overlay.active{
+
+    display: block;
+  
+  }
+
   
    /* Responsive navbar */
 
   
-  .ham-menu{ display: block;}
+  .ham-menu{ display: block;
+    position: relative;
+    z-index: 9;
+  }
   .voodaserra {
     display: none;
   }
@@ -394,18 +419,16 @@ margin:0 auto;
     
 .off-screen-menu {
   background-color:  #FFFF;
-border-l-color: var(--navy) white  white   ;
   font-weight: bold;
-margin-top: 5rem;
-  height: 100vh;
+  height: 120vh;
+  height: 100%;
   width: 100%;
   max-width: 250px;
   position: fixed;
-  top: 0;
   z-index: 2;
   font-family: "Prompt", sans-serif;
   right: -450px;
-  display: flex;
+
   flex-direction: column;
   align-items: center;    
   justify-content: center;
@@ -442,8 +465,9 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 width: 100%;
-border-color: white white  var(--navy)  ;
+border-color: rgb(241, 241, 241)  rgb(241, 241, 241)  var(--navy)  ;
     border-style: solid;
+    z-index: 9;
         }
 
   
@@ -580,21 +604,34 @@ footer {
   margin-left: 0%;
 
 }
+}
 
 @media screen and (max-width: 380px) {
   
+  .navbar{ display: none;}
+
+
+  .overlay{
+
+    display: none;
+    z-index: 0;
   
-
-.navbar{ display: none;}
-
-
-  /* Responsive navbar */
-
-  .off-screen-menu{
-    display: block;
+  
   }
+  .overlay.active{
+
+    display: block;
   
-  .ham-menu{ display: block;}
+  }
+
+  
+   /* Responsive navbar */
+
+  
+  .ham-menu{ display: block;
+    position: relative;
+    z-index: 9;
+  }
   .voodaserra {
     display: none;
   }
@@ -614,22 +651,22 @@ footer {
 
 
 
+ 
 
 
     
 .off-screen-menu {
   background-color:  #FFFF;
-border-left-color: var(--navy) white  white   ;
   font-weight: bold;
-margin-top: 5rem;
-  height: 100vh;
+  height: 120vh;
+  height: 100%;
   width: 100%;
   max-width: 250px;
   position: fixed;
-  top: 0;
+  z-index: 2;
   font-family: "Prompt", sans-serif;
   right: -450px;
-  display: flex;
+
   flex-direction: column;
   align-items: center;    
   justify-content: center;
@@ -637,6 +674,7 @@ margin-top: 5rem;
   gap: 5rem;
   font-size: 2rem;
   transition: .3s ease;
+  display: block;
 }
 
 .off-screen-menu ul li {
@@ -660,21 +698,19 @@ margin-top: 5rem;
 
 
 
-#open-sidebar-button{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  border-color: white white  var(--navy)  ;
-      border-style: solid;
-          }
-  
+  #open-sidebar-button{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+border-color: rgb(241, 241, 241)  rgb(241, 241, 241)  var(--navy)  ;
+    border-style: solid;
+    z-index: 9;
+        }
 
-  }
- 
   
  
-
+  
 
   /*Responsive navbar */
   

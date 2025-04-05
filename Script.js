@@ -11,6 +11,7 @@ const darkOverlay = document.querySelector(".overlay");
 hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
+darkOverlay.classList.toggle("active");
 });
 
 
@@ -19,14 +20,9 @@ darkOverlay.addEventListener("click", () => {
   offScreenMenu.classList.toggle("active");
 });
 
-
-
-
-
-
 if (offScreenMenu.contains ("active")) {
   
-  darkOverlay.classList.toggle("active")
+  darkOverlay.classList.add("active")
 
 }
 
