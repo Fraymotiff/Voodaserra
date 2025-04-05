@@ -23,7 +23,6 @@ body {
   line-height: 1.7;
 }
 
-
 .voodaserra {
   font-size: 1rem !important;
   position: relative !important;
@@ -74,7 +73,6 @@ a {
 a:hover {
 }
 
-
 a:hover {
 }
 
@@ -115,8 +113,7 @@ h3 {
   margin: 1em;
 }
 
-.trips__text{
- 
+.trips__text {
   width: 50%;
   padding: 5px;
 }
@@ -141,7 +138,7 @@ h3 {
   letter-spacing: 2px;
 
   display: flex;
-  justify-self: center ;
+  justify-self: center;
   flex-direction: column;
 }
 
@@ -162,43 +159,34 @@ span {
 
 /*footer*/
 
-
-
-
-
 .footer_nav {
   background-color: var(--navy);
-  color:#fff;
-
+  color: #fff;
 }
 
-.footer_nav__address{
+.footer_nav__address {
   font-size: 18px;
   float: right;
 }
 
-.footer_nav__socials .bx{
-font-size: 45px ;
-text-decoration: none;
-color: #fff;
+.footer_nav__socials .bx {
+  font-size: 45px;
+  text-decoration: none;
+  color: #fff;
 }
 
-.footer_nav__socials .bx:hover{
+.footer_nav__socials .bx:hover {
   color: var(--blue);
-  transition: 0.90 ease;
+  transition: 0.9 ease;
 }
 
-.footer_imgs{
-
-width: 95px;
-display: flex;
-gap: 5px;
-
-
+.footer_imgs {
+  width: 95px;
+  display: flex;
+  gap: 5px;
 }
-.footer_nav span{
-  color:#fff;
-
+.footer_nav span {
+  color: #fff;
 }
 
 footer {

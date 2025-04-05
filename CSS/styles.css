@@ -2,10 +2,7 @@
   --blue: #3e84b5;
   --navy: #05548b;
   --black: #111221;
-  --bg: #f0f0f0; 
-  
-  
- 
+  --bg: #f0f0f0;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
@@ -22,7 +19,6 @@
 }
 body {
   margin: 0;
-
 
   line-height: 1.7;
 }
@@ -165,15 +161,14 @@ p {
   color: #ffff;
 }
 
-.image_one{
-width: 45rem;
-display: flex;
-justify-content: center;
-border-radius: 10px;
+.image_one {
+  width: 45rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .plancontainer {
- 
 }
 
 .plantitle {
@@ -181,14 +176,12 @@ border-radius: 10px;
   justify-content: center;
 }
 .plantxtxt {
-  
   width: 50%;
   letter-spacing: 4px;
-  margin:2rem;
+  margin: 2rem;
   display: flex;
-justify-self: center;
+  justify-self: center;
 }
-
 
 .text_container {
   width: 80%;
@@ -368,42 +361,36 @@ textarea {
 
 /*footer*/
 
-
 .footer_nav {
   background-color: var(--navy);
-  color:#fff;
+  color: #fff;
   padding: 0 1rem;
-
 }
 
-.footer_nav__address{
+.footer_nav__address {
   font-size: 18px;
   float: right;
 }
 
-.footer_nav__socials .bx{
-font-size: 45px ;
-text-decoration: none;
-color: #fff;
+.footer_nav__socials .bx {
+  font-size: 45px;
+  text-decoration: none;
+  color: #fff;
 }
 
-.footer_nav__socials .bx:hover{
+.footer_nav__socials .bx:hover {
   color: var(--blue);
-  transition: 0.90 ease;
+  transition: 0.9 ease;
 }
 
-.footer_imgs{
-
+.footer_imgs {
   width: 95px;
   display: flex;
   gap: 5px;
   padding: 0 1rem;
-  
-  
-  }
-.footer_nav span{
-  color:#fff;
-
+}
+.footer_nav span {
+  color: #fff;
 }
 
 footer {
