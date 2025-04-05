@@ -6,7 +6,7 @@ const darkOverlay = document.querySelector(".overlay");
 
 
 
-
+// open off screen menu and make menu close upon clicking overlay
 
 hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
@@ -15,6 +15,8 @@ darkOverlay.classList.toggle("active");
 });
 
 
+// toggles overlay
+
 darkOverlay.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
@@ -22,7 +24,14 @@ darkOverlay.addEventListener("click", () => {
 
 if (offScreenMenu.contains ("active")) {
   
-  darkOverlay.classList.add("active")
+  darkOverlay.classList.remove("active");
 
 }
 
+
+//closes off screen menu upon clicking menu itself
+
+offScreenMenu.addEventListener("click", () => {
+  offScreenMenu.classList.toggle("active");
+
+});

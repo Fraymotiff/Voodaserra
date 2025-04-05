@@ -16,6 +16,7 @@
 }
 
 .ham-menu{ display: none;}
+
 .overlay{
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -23,9 +24,8 @@
   z-index: 9;
   display:none;
 
+
 }
-
-
 
 @media screen and (max-width: 1280px) {
 
@@ -658,7 +658,6 @@ footer {
 .off-screen-menu {
   background-color:  #FFFF;
   font-weight: bold;
-  height: 120vh;
   height: 100%;
   width: 100%;
   max-width: 250px;
@@ -666,21 +665,20 @@ footer {
   z-index: 2;
   font-family: "Prompt", sans-serif;
   right: -450px;
-
+  display: flex;
   flex-direction: column;
-  align-items: center;    
-  justify-content: center;
-  text-align: center;
+  align-items: center;
+  align-content: space-around;
   gap: 5rem;
   font-size: 2rem;
   transition: .3s ease;
   display: block;
-}
 
-.off-screen-menu ul li {
-  margin-bottom: 5rem;
 
 }
+
+
+
 .off-screen-menu.active {
   right: 0;
 }
@@ -690,7 +688,7 @@ footer {
   color: var(--navy);
   text-decoration: none;
   list-style: none;
-  margin-bottom: 5rem;
+
 
   
 
@@ -704,6 +702,7 @@ align-items: center;
 justify-content: space-between;
 width: 100%;
 border-color: rgb(241, 241, 241)  rgb(241, 241, 241)  var(--navy)  ;
+border-width: 5px;
     border-style: solid;
     z-index: 9;
         }
