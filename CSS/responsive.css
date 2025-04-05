@@ -100,6 +100,7 @@ margin:0 auto;
   justify-items: center;
   flex-direction: column;
   align-items: center;
+  z-index: -20;
 }
 
 .destination__trips__about{
@@ -138,6 +139,7 @@ margin:0 auto;
   }
 
 
+
   
   .logotype {
     display: none;
@@ -152,14 +154,7 @@ margin:0 auto;
 
 
 
-.open-sidebar-button{
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 100%;
-border-color: white  white var(--navy)  ;
-border-style: solid;
-    }
+
 
 
     
@@ -206,13 +201,15 @@ margin-top: 5rem;
 
 
 
-  #open-sidebar-button{
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 100%;
-
-  }
+#open-sidebar-button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-color: white white  var(--navy)  ;
+      border-style: solid;
+          }
+  
  
   
  
@@ -334,6 +331,7 @@ margin:0 auto;
   justify-items: center;
   flex-direction: column;
   align-items: center;
+  z-index: -20;
 }
 
 .destination__trips__about{
@@ -389,14 +387,7 @@ margin:0 auto;
 
 
 
-.open-sidebar-button{
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 100%;
-border-color: white  white var(--navy)  ;
-border-style: solid;
-    }
+ 
 
 
     
@@ -448,6 +439,9 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 width: 100%;
+border-color: white white  var(--navy)  ;
+    border-style: solid;
+        }
 
   }
  
@@ -567,6 +561,7 @@ text-align: center;
   justify-items: center;
   flex-direction: column;
   align-items: center;
+  z-index: -20;
 }
 
 footer {
@@ -617,20 +612,12 @@ footer {
 
 
 
-.open-sidebar-button{
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 100%;
-border-color: white  white var(--navy)  ;
-border-style: solid;
-    }
 
 
     
 .off-screen-menu {
   background-color:  #FFFF;
-border-l-color: var(--navy) white  white   ;
+border-left-color: var(--navy) white  white   ;
   font-weight: bold;
 margin-top: 5rem;
   height: 100vh;
@@ -671,11 +658,15 @@ margin-top: 5rem;
 
 
 
-  #open-sidebar-button{
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 100%;
+#open-sidebar-button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-color: white white  var(--navy)  ;
+      border-style: solid;
+          }
+  
 
   }
  
@@ -791,6 +782,7 @@ text-align: center;
   justify-items: center;
   flex-direction: column;
   align-items: center;
+  z-index: -20;
 }
 
 footer {
